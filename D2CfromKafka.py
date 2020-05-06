@@ -1,3 +1,5 @@
+#pip install kafka-python
+#pip azure.iot.device
 import time,json,sys
 from azure.iot.device import IoTHubDeviceClient, Message
 from kafka import KafkaConsumer
